@@ -508,11 +508,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4268475414152642, guid: 7c134eeb2e3f5cf4e918c66ec18a844f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.871
+      value: 1.593
       objectReference: {fileID: 0}
     - target: {fileID: 4268475414152642, guid: 7c134eeb2e3f5cf4e918c66ec18a844f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.182
+      value: 2.046
       objectReference: {fileID: 0}
     - target: {fileID: 4268475414152642, guid: 7c134eeb2e3f5cf4e918c66ec18a844f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1732,6 +1732,7 @@ MonoBehaviour:
   movementSpeed: 50
   hitDamage: 0.03
   wood: {fileID: 809230038}
+  woodFx: {fileID: 1693275557}
 --- !u!1 &1679697570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1850,6 +1851,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.22528553, y: 2.3902378, z: 1}
   m_Center: {x: -0.36768246, y: 0.0005455017, z: 0}
+--- !u!198 &1693275557 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198994476579430272, guid: 7c134eeb2e3f5cf4e918c66ec18a844f,
+    type: 3}
+  m_PrefabInstance: {fileID: 529885837}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1937906799
 GameObject:
   m_ObjectHideFlags: 0
